@@ -439,7 +439,12 @@ MonoBehaviour:
   horizontalInputName: Horizontal
   verticalInputName: Vertical
   movementSpeed: 6
+  sprintSpeed: 12
   jumpMultiplier: 10
+  doubleJumpMultiplier: 50
+  jumpCoolDown: 0
+  jumpKey: 32
+  sprintKey: 304
   jumpFalloff:
     serializedVersion: 2
     m_Curve:
@@ -453,18 +458,70 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.70059204
-      value: 0.010520935
-      inSlope: -0.013019646
-      outSlope: -0.013019646
+      time: 0.5448474
+      value: 0.407828
+      inSlope: -2.2385032
+      outSlope: -2.2385032
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.16824126
+      inWeight: 0.33333334
+      outWeight: 0.51267034
+    - serializedVersion: 3
+      time: 0.70059204
+      value: 0.010520935
+      inSlope: -0.95071995
+      outSlope: -0.95071995
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.8331904
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  jumpKey: 32
+  doubleJumpFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0031738281
+      value: 0.9957886
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.46649206
+      value: 0.9426396
+      inSlope: -0.42265454
+      outSlope: -0.42265454
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.90787214
+      value: 0.3076542
+      inSlope: -3.7791972
+      outSlope: -3.7791972
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9873047
+      value: 0
+      inSlope: -3.6185842
+      outSlope: -3.6185842
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isJumping: 0
+  hasDoubleJumped: 0
 --- !u!1 &168358689
 GameObject:
   m_ObjectHideFlags: 0
