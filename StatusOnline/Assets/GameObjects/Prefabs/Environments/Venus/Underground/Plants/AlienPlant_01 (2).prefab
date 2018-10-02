@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1195954490350516}
+  m_IsPrefabAsset: 1
+--- !u!1 &1195954490350516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4710426745932770}
+  - component: {fileID: 33133996434393266}
+  - component: {fileID: 23600934080795086}
+  - component: {fileID: 64725059894197424}
+  m_Layer: 0
+  m_Name: AlienPlant_01 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4710426745932770
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1195954490350516}
+  m_LocalRotation: {x: -0.15925094, y: 0.6889407, z: 0.6889406, w: 0.15925075}
+  m_LocalPosition: {x: -67.345856, y: 1.4999993, z: 10.858239}
+  m_LocalScale: {x: 3.2974012, y: 3.2974002, z: 3.2974014}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 153.96901}
+--- !u!23 &23600934080795086
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1195954490350516}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 05dbc8525de90d94b9763530b97fbc0b, type: 2}
+  - {fileID: 2100000, guid: 5c3ec793bbdc0094cbee3be86a89c2fc, type: 2}
+  - {fileID: 2100000, guid: 05f753c85d366de41af8647fc3fc7fd4, type: 2}
+  - {fileID: 2100000, guid: 5331c34e7d4e10541b2724d4ff1ea5c5, type: 2}
+  - {fileID: 2100000, guid: 62f8fb26ee2cf3144b994e538b9e0f2b, type: 2}
+  - {fileID: 2100000, guid: 3d4be57df0826b54a93d74240b33f182, type: 2}
+  - {fileID: 2100000, guid: 32d91b27f03f77b41a8472ee577213c6, type: 2}
+  - {fileID: 2100000, guid: 435cfb58e3a77d447899c7b85be302a3, type: 2}
+  - {fileID: 2100000, guid: 18593ccead8683e4aa0e845399c27e60, type: 2}
+  - {fileID: 2100000, guid: 8ac3e984bf6e8174a9e274bf7c9b04ee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33133996434393266
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1195954490350516}
+  m_Mesh: {fileID: 4300000, guid: 6c448db332c6c784a9676aa6f5561bb9, type: 3}
+--- !u!64 &64725059894197424
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1195954490350516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 6c448db332c6c784a9676aa6f5561bb9, type: 3}
