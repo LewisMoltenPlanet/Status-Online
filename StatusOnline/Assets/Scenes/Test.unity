@@ -5134,6 +5134,16 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 20744342252955240, guid: 58856409ec293da49b3b40769fed54b8,
+        type: 2}
+      propertyPath: m_AllowMSAA
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20744342252955240, guid: 58856409ec293da49b3b40769fed54b8,
+        type: 2}
+      propertyPath: m_AllowDynamicResolution
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58856409ec293da49b3b40769fed54b8, type: 2}
   m_IsPrefabAsset: 0
