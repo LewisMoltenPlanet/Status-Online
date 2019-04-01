@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace StatusOnline_Launcher
+namespace StatusOnlineLauncher
 {
     /// <summary>
     /// Interaction logic for App.xaml

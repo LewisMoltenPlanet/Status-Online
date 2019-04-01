@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StatusOnline_Launcher.Properties
+namespace StatusOnlineLauncher.Properties
 {
 
 
