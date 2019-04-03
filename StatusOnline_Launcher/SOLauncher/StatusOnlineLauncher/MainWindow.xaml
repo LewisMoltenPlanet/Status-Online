@@ -5,6 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StatusOnlineLauncher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid/>
+        Title="Status Online Launcher" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFABFFE8" Offset="0"/>
+                <GradientStop Color="#FFE7FFBD" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="NameText" Content="Status Online" Margin="10,10,0,0" FontSize="20" FontWeight="Bold" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Width="141"/>
+        <Label x:Name="VersionText" Content="v0.06" Margin="156,19,0,0" Background="{x:Null}" Foreground="Red" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="55"/>
+        <WebBrowser Margin="10,55,10,71" Source="file:///C:/Users/User/Documents/GitHub/Status-Online/StatusOnline_Launcher/Website/StatusOnlineWebsite.html"/>
+        <Button x:Name="PlayButton" Content="PLAY" Margin="0,0,10,10" FontWeight="Bold" FontSize="20" HorizontalAlignment="Right" Width="116" Height="47" VerticalAlignment="Bottom" Click="PlayButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCFCFCF" Offset="0.283"/>
+                    <GradientStop Color="#FF75FFBA" Offset="0.603"/>
+                    <GradientStop Color="#FFD1D1D1" Offset="0.28"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="WebsiteButton" Content="Website" Margin="10,0,0,10" FontWeight="Bold" FontSize="20" Height="47" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="116" Click="WebsiteButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCFCFCF" Offset="0.283"/>
+                    <GradientStop Color="#FF75FFBA" Offset="0.603"/>
+                    <GradientStop Color="#FFD1D1D1" Offset="0.28"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
 </Window>

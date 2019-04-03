@@ -24,5 +24,15 @@ namespace StatusOnlineLauncher
         {
             InitializeComponent();
         }
+
+        private void PlayButton_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.PlayGame();
+        }
+
+        private void WebsiteButton_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("file:///C:/Users/User/Documents/GitHub/Status-Online/StatusOnline_Launcher/Website/StatusOnlineWebsite.html");
+        }
     }
 }
